@@ -1,0 +1,41 @@
+.parent {
+  width: 100%;
+
+  > nav {
+    display: flex;
+    justify-content: center;
+
+    >img{
+        width: 90px;
+        height: 30px;
+        margin-right: 100px;
+        margin-top: 10px;
+    }
+
+    > ul {
+      display: flex;
+      gap: 20px;
+
+      > li {
+        list-style-type: none;
+      }
+    }
+    > button {
+      margin-left: 50px;
+    }
+
+    #btn1{
+        border: none;
+        background-color: aqua;
+        border-radius: 10px;
+    }
+
+    #btn2{
+        width: 70px;
+        color: red;
+        border: 1px solid red;
+        background-color: white;
+        border-radius: 10px;
+    }
+  }
+}
